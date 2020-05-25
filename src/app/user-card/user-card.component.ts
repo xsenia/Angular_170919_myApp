@@ -16,7 +16,6 @@ export class UserCardComponent implements OnInit {
   }
 
   selectUser() {
-    console.log(event);
     this.userSelected.emit();
   }
 
